@@ -21,6 +21,7 @@ class PaginationApp extends StatelessWidget {
       home: BlocProvider(
         create: (context) => ProductsCubit(repository!),
         child: PostsView(),
+
       ),
     );
   }
