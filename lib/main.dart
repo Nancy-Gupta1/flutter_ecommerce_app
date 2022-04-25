@@ -22,6 +22,10 @@ class PaginationApp extends StatelessWidget {
         create: (context) => ProductsCubit(repository!),
         child: PostsView(),
 
+
+
+
+
       ),
     );
   }
