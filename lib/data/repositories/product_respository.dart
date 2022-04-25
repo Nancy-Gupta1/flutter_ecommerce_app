@@ -10,6 +10,7 @@ class ProductsRepository {
   ProductsRepository(this.service);
 
 
+
   Future<List<Datum>?> fetchPosts() async {
     Product? posts = await service.fetchPosts();
     return posts?.data;
